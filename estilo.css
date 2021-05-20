@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.player-options img, .enemy-options img{
+    max-width: 80%;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.player-options, .enemy-options{
+    width: 50%;
+    padding: 5% 10%;
+}
+.align{
+    display: flex;
+}
+.whoWinsMessage{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+}
+
+.winner{
+    transition: 1s;
+}
+
+.enemy-options h2, .player-options h2{
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    margin-bottom: 10%;
+}
+
