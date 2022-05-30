@@ -4,23 +4,35 @@
 }
 header{
     background-color: cornflowerblue;
-    text-align: center;
-    padding: 20px 3%;
+    height: 15vh;
+    width: 100%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.align{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .player-options img, .enemy-options img{
-    max-width: 80%;
+    max-width: 100%;
     opacity: 0.3;
     cursor: pointer;
 }
 .player-options, .enemy-options{
-    width: 50%;
-    padding: 5% 10%;
-}
-.align{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .whoWinsMessage{
     position: fixed;
     width: 100%;
@@ -37,9 +49,14 @@ header{
     background-color: rgb(156, 156, 156);
     text-align: center;
     padding: 20px 0;
+    width: 100%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 50px;
     margin-bottom: 10%;
+}
+
+.options {
+    max-width: 200px;
 }
 
