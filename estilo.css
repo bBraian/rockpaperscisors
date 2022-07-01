@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+h1 {
+    padding: 0 25px;
+    text-align: center;
+}
 header{
     background-color: cornflowerblue;
     height: 15vh;
@@ -12,7 +16,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 25px;
 }
 .align{
     height: 85vh;
