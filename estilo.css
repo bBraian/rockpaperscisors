@@ -12,6 +12,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 25px;
 }
 .align{
     height: 85vh;
